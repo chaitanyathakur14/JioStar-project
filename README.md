@@ -183,3 +183,5 @@ I used **Claude (Anthropic)** as a coding assistant throughout:
   report. I read the examples and checked the diagnoses against the contracts.
 
 I've gone through every module and can explain and change any part of it.
+
+- **Repository visibility.** The brief asks for a private repository with collaborator access in Logistics, but a public one under Deliverables. Given the confidentiality section, I kept it private and granted access to datascience.ai@jiostar.com.
