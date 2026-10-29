@@ -16,6 +16,7 @@ under over between per each other same also only our we us you your i he she his
 # about which clause is meant.
 QUERY_BOILERPLATE = set("""
 consider contract agreement highlight parts details related part clause if any
+reviewed review lawyer should
 """.split())
 
 _SUFFIXES = ("ations", "ation", "ings", "ing", "ies", "ied", "ed", "es", "s")

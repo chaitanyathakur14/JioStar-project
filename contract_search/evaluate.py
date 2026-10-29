@@ -52,7 +52,10 @@ def calibrate(results: list[SearchResult], queries: list[Query], max_false: floa
     fa = abst_matrix(ans).mean(axis=2)
     ca = abst_matrix(una).mean(axis=2)
     bal = (ca + 1 - fa) / 2
-    bal[fa > max_false] = -1
+    if (fa <= max_false).any():
+        bal[fa > max_false] = -1
+    else:  # cap infeasible (signal forces abstention on >cap answerable queries): abstain as little as possible
+        bal = -fa
     # tie-break toward lower thresholds (abstain as little as needed)
     penalty = (doc_grid[:, None] + cl_grid[None, :]) * 1e-6
     i, j = np.unravel_index(np.argmax(bal - penalty), bal.shape)

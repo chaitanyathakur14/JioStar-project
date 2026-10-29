@@ -33,7 +33,8 @@ def build_searcher(cfg: Config, data: str = DATA, unans: str = UNANS):
     config asks for calibration, thresholds are fitted on train (cached)."""
     queries, docs = load_all(data, unans)
     if cfg.calibrate_abstention and cfg.doc_threshold == 0 and cfg.clause_threshold == 0:
-        cache = Path("cache") / f"thresholds_{cfg.key()}.json"
+        n_un = sum(not q.answerable for q in queries)
+        cache = Path("cache") / f"thresholds_{cfg.key()}_{n_un}u.json"
         if cache.exists():
             dt, ct = json.loads(cache.read_text())
         else:
