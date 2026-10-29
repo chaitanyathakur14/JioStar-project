@@ -1,0 +1,21 @@
+# Baseline: simplest reasonable pipeline (as in the LegalBench-RAG paper's naive setup)
+name: baseline
+chunker: fixed
+chunk_size: 500
+chunk_overlap: 0
+title_prefix: false
+stem: false
+retriever: bm25
+bm25_k1: 1.2
+bm25_b: 0.75
+doc_routing: false
+doc_top_n: 3
+query_mode: full
+rerank: false
+neighbor_expand: 0
+calibrate_abstention: true
+max_false_abstention: 0.10
+clause_threshold: 0.0
+doc_threshold: 0.0
+k_values: [1, 2, 4, 8, 16, 32]
+primary_k: 8

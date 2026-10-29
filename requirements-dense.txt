@@ -1,0 +1,2 @@
+# optional: enables the hybrid (BM25 + dense) retriever and cross-encoder reranker proposals
+sentence-transformers>=2.6

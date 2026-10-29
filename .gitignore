@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+cache/
+data/legalbench-rag/
+.venv/
+.env
