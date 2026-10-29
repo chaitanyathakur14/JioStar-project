@@ -56,9 +56,10 @@ if st.button("Search", type="primary") and question.strip():
             after = doc[p.end:p.end + context]
             with st.container(border=True):
                 st.markdown(f"**#{i}** · `{p.doc_id}` · chars **{p.start}–{p.end}** · score {p.score:.3f}")
-                st.markdown(
-                    f"<div style='white-space:pre-wrap;font-size:0.9em'>"
+                # st.html renders raw HTML without Markdown, so indented contract lines
+                # are not turned into code blocks (which broke the highlighting)
+                st.html(
+                    f"<div style='white-space:pre-wrap;font-size:0.9em;font-family:sans-serif'>"
                     f"<span style='opacity:0.45'>…{html.escape(before)}</span>"
                     f"<mark>{html.escape(p.text)}</mark>"
-                    f"<span style='opacity:0.45'>{html.escape(after)}…</span></div>",
-                    unsafe_allow_html=True)
+                    f"<span style='opacity:0.45'>{html.escape(after)}…</span></div>")
