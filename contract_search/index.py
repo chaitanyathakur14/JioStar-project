@@ -101,7 +101,8 @@ class Index:
         self.bm25 = BM25(self.chunk_tokens, cfg.bm25_k1, cfg.bm25_b)
 
         # ---- whole-contract index for routing: file-name title + opening text ----
-        doc_texts = [self.titles[d] + "\n" + docs[d][:3000] for d in self.doc_ids]
+        # raw file name too, so a pasted file name ("ArcGroupInc_2017...") also matches
+        doc_texts = [self.titles[d] + "\n" + d.rsplit("/", 1)[-1] + "\n" + docs[d][:3000] for d in self.doc_ids]
         self.doc_tokens = [set(tokenize(t, cfg.stem)) for t in doc_texts]
         self.doc_bm25 = BM25([tokenize(t, cfg.stem) for t in doc_texts], cfg.bm25_k1, cfg.bm25_b)
 

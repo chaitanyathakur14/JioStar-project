@@ -17,8 +17,9 @@ def get_searcher(config_path: str):
     return searcher, cfg, sorted(docs)
 
 
-configs = sorted(str(p) for p in Path("configs").glob("*.yaml"))
-default = configs.index("configs/final.yaml") if "configs/final.yaml" in configs else 0
+configs = sorted(Path("configs").glob("*.yaml"), key=lambda p: (p.stem != "final", p.stem))
+configs = [p.as_posix() for p in configs]  # forward slashes on Windows too
+default = 0  # final.yaml first when it exists
 
 with st.sidebar:
     st.header("Settings")
