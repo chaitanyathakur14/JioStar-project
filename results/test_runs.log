@@ -2,3 +2,5 @@
 2026-10-29 23:53:07	final	configs/final.yaml	[test] n=54+17u  R@8=0.135 P@8=0.0164 DocHit@8=1.000  falseAbst=0.574 correctAbst=0.118
 2026-10-30 00:11:43	baseline	configs/baseline.yaml	[test] n=54+17u  R@8=0.135 P@8=0.0164 DocHit@8=1.000  falseAbst=0.574 correctAbst=0.118
 2026-10-30 00:11:46	final	configs/final.yaml	[test] n=54+17u  R@8=0.135 P@8=0.0164 DocHit@8=1.000  falseAbst=0.574 correctAbst=0.118
+2026-10-30 00:21:47	baseline	configs/baseline.yaml	[test] n=54+17u  R@8=0.135 P@8=0.0164 DocHit@8=1.000  falseAbst=0.574 correctAbst=0.118
+2026-10-30 00:21:49	final	configs/final.yaml	[test] n=54+17u  R@8=0.361 P@8=0.0650 DocHit@8=0.944  falseAbst=0.056 correctAbst=1.000
