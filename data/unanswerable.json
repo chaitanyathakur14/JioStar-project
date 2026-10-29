@@ -1,0 +1,158 @@
+[
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Content License Agreement between Starlight Pictures Pvt. Ltd. and Northwind Streaming Inc.; Does this agreement allow sublicensing to a third-party platform?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Co-Production Agreement between Bluefin Studios LLC and Marigold Films Limited; Who owns the intellectual property in derivative works?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Sports Broadcasting Rights Agreement between Coastal Cricket League and Vantage Media Holdings; When does the exclusivity period end?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Music Synchronization License between Harborline Records and Quillmark Television; What territories are covered by the license?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Talent Agreement between Orion Kestrel and Pinecrest Productions; Is there a non-compete restriction on the talent?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Sponsorship Agreement between Zephyr Beverages Ltd. and Halcyon Esports Pvt. Ltd.; Can the sponsor terminate the agreement for convenience?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Format License Agreement between Tangerine Formats BV and Lumen Broadcasting Corp.; What is the license fee per episode?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Distribution Agreement between Redwood Animation Studio and Kiteframe OTT Services; What is the governing law of this contract?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Dubbing Services Agreement between Vocalis Dubbing Pvt. Ltd. and Saffron Streaming Ltd.; Is there a cap on liability?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Clip License Agreement between Meridian Newsreel Archive and Fablehouse Digital; May clips be used for promotional trailers?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Podcast Hosting Agreement between Echo Valley Audio and Brightwave Networks Inc.; Does the agreement include a most favored nation clause?"
+ },
+ {
+  "type": "contract_not_in_corpus",
+  "query": "Consider the Merchandising License between Cobalt Comics Inc. and Wrenfield Toys GmbH; What is the minimum guaranteed royalty?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What frame rate and HDR format must delivery masters of each episode be supplied in?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "Which subtitle and dubbing languages must the licensor deliver with each film?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "How many hours of catch-up viewing window are allowed after the live telecast of a match?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What is the required integrated audio loudness level in LUFS for broadcast deliverables?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "Which censor board certificate must accompany a feature film before its theatrical release in India?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What is the maximum number of advertisement breaks allowed per hour of streamed content?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "Does the agreement allow the episodes to be clipped into short-form vertical videos for social media?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What holdback period applies between the theatrical release and the SVOD premiere of the film?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "Who is responsible for obtaining music cue sheets and paying performing rights society fees for the soundtrack?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What happens to the streaming rights if the lead actor is replaced during principal photography?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "Which party controls the casting approval for the lead roles in the series?"
+ },
+ {
+  "type": "topic_absent",
+  "query": "What blackout restrictions apply to live streaming of cricket matches in the home territory?"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Sponsorship Agreement between Jacksonville Jaguars, LLC and The ARC Group, Inc.; What frame rate must delivered video masters use?",
+  "doc_id_named": "cuad/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Agency Agreement for Asset Sale between The Bon-Ton Stores, Inc., GA Retail, Inc., Tiger Capital Group, LLC, and Wilmington Savings Fund Society, FSB; Which subtitle languages must be delivered with the content?",
+  "doc_id_named": "cuad/BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Agency Agreement between General Electric Capital Corporation and Duckwall-Alco Stores, Inc. for Equipment Leasing; What is the holdback window before an SVOD premiere?",
+  "doc_id_named": "cuad/ALCOSTORESINC_12_14_2005-EX-10.26-AGENCY AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Marketing and Transportation Services Agreement between Purolator Courier Ltd. and Parcelway Courier Systems Canada Ltd. (Dynamex Inc.); Who pays the performing rights society fees for music cue sheets?",
+  "doc_id_named": "cuad/DYNAMEXINC_06_06_1996-EX-10.4-TRANSPORTATION SERVICES AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Joint Venture Agreement between MJ Syndicated, Inc. and Simply Herbals for Manufacturing and Selling Health-Related Products; What blackout restrictions apply to live sports streaming?",
+  "doc_id_named": "cuad/MJBIOTECH,INC_12_06_2018-EX-99.01-JOINT VENTURE AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Non-Competition Agreement and Right of First Offer between Glamis Gold Ltd. and Western Copper Corporation; Can episodes be clipped into short vertical videos for social media?",
+  "doc_id_named": "cuad/WESTERN COPPER - NON-COMPETITION AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Support and Maintenance Agreement between On2 Technologies, Inc. and Wildform, Inc.; What audio loudness level in LUFS is required for deliverables?",
+  "doc_id_named": "cuad/ON2TECHNOLOGIES,INC_11_17_2006-EX-10.3-SUPPORT AND MAINTENANCE AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Gas Transportation Agreement between PennTex North Louisiana Operating, LLC and MRD Operating LLC; Which censor board certificate is required before release?",
+  "doc_id_named": "cuad/PenntexMidstreamPartnersLp_20150416_S-1A_EX-10.4_9042833_EX-10.4_Transportation Agreement.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Marketing Agreement between Loop Industries, Inc. and Indorama Loop Technologies, LLC for Product Supply and Development; Who has casting approval over the lead actors?",
+  "doc_id_named": "cuad/Loop Industries, Inc. - Marketing Agreement.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Co-Branding and Services Agreement between RSL COM PrimeCall, Inc. and deltathree.com, Inc.; How long is the catch-up viewing window after a live telecast?",
+  "doc_id_named": "cuad/DeltathreeInc_19991102_S-1A_EX-10.19_6227850_EX-10.19_Co-Branding Agreement_ Service Agreement.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Endorsement Agreement between Holiday RV Superstores, Inc. and Affinity Group, Inc. for Good Sam Branding; What dubbing languages does the licensee receive rights to?",
+  "doc_id_named": "cuad/HOLIDAYRVSUPERSTORESINC_04_15_2002-EX-10.13-ENDORSEMENT AGREEMENT.txt"
+ },
+ {
+  "type": "contract_present_topic_absent",
+  "query": "Consider the Co-Branding Agreement between PC Quote, Inc. and A.B. Watley, Inc. for Market Data Software; How many ad breaks per hour are permitted during streaming?",
+  "doc_id_named": "cuad/PcquoteComInc_19990721_S-1A_EX-10.11_6377149_EX-10.11_Co-Branding Agreement1.txt"
+ }
+]
