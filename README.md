@@ -63,6 +63,9 @@ commit history. Please don't re-run that script.
 | Improvement loop | `python -m contract_search.cli loop --config configs/baseline.yaml --iterations 12` |
 | Tests | `pytest -q` |
 
+**Demo video:** [`docs/demo.mp4`](docs/demo.mp4) is a one-minute screen recording of the app answering a real question,
+abstaining on a contract that isn't in the corpus, and abstaining on an off-topic question.
+
 Tips:
 - Start questions with **"Consider the \<contract description\>;"** to search one specific contract, which
   is the format the benchmark uses. Without that prefix, the whole corpus is searched.
